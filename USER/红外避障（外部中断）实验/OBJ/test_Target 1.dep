@@ -1,0 +1,43 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x532BB241)(--cpu Cortex-M3 -g --apcs=interwork -I"D:\360MoveData\Users\Administrator\Desktop\ALIENTEK MiniSTM32 实验4  外部中断实验\USER\RTE"-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\MDK5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F10X_HD SETA 1"--list ..\obj\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (.\test.c)(0x5F905ABE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\IR_SENSOR-I"D:\360MoveData\Users\Administrator\Desktop\ALIENTEK MiniSTM32 实验4  外部中断实验\USER\RTE"-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\HARDWARE\IR_SENSOR\ir_sensor.h)(0x5F90576A)
+I (..\HARDWARE\EXTI\exti.h)(0x5F905ACC)
+F (..\SYSTEM\sys\sys.c)(0x550EB960)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\IR_SENSOR-I"D:\360MoveData\Users\Administrator\Desktop\ALIENTEK MiniSTM32 实验4  外部中断实验\USER\RTE"-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x5A31EDC1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\IR_SENSOR-I"D:\360MoveData\Users\Administrator\Desktop\ALIENTEK MiniSTM32 实验4  外部中断实验\USER\RTE"-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\HARDWARE\EXTI\exti.c)(0x5F905A7D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\IR_SENSOR-I"D:\360MoveData\Users\Administrator\Desktop\ALIENTEK MiniSTM32 实验4  外部中断实验\USER\RTE"-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\exti.o --omf_browse ..\obj\exti.crf --depend ..\obj\exti.d)
+I (..\HARDWARE\EXTI\exti.h)(0x5F905ACC)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\MDK5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\HARDWARE\IR_SENSOR\ir_sensor.c)(0x5F90572E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\EXTI -I ..\HARDWARE\IR_SENSOR-I"D:\360MoveData\Users\Administrator\Desktop\ALIENTEK MiniSTM32 实验4  外部中断实验\USER\RTE"-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-ID:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DSTM32F10X_HD-o ..\obj\ir_sensor.o --omf_browse ..\obj\ir_sensor.crf --depend ..\obj\ir_sensor.d)
+I (..\HARDWARE\IR_SENSOR\ir_sensor.h)(0x5F90576A)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\MDK5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\README.TXT)(0x55C34EBE)()
